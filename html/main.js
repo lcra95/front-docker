@@ -1209,7 +1209,7 @@ var Const = /** @class */ (function () {
     //API URL PROD
     //public static URL = "http://nrquena.ddns.net:5000";
     //API URL DEV
-    Const.URL = "https://rypsystems.space:5000";
+    Const.URL = "http://rypsystems.space:5000";
     //public static URL = "http://localhost:5252";
     // public static URL = "http://45.7.229.203:5000";
     Const.urlBoleta = "http://localhost:8081";
