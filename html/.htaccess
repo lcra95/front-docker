@@ -1,0 +1,9 @@
+# Activar la reescritura de URL
+RewriteEngine On
+
+# Si la solicitud no corresponde a un archivo existente
+RewriteCond %{REQUEST_FILENAME} !-f
+# Si la solicitud no corresponde a un directorio existente
+RewriteCond %{REQUEST_FILENAME} !-d
+# Redirige todas las solicitudes al index.html
+RewriteRule ^ index.html [L]
